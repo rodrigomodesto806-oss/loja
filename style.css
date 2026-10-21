@@ -53,7 +53,7 @@ a {
     top: 0;
     z-index: 99;
     padding: 1rem;
-    background-color: var(--cor-navbar);
+    background-color: var(--cor-nvbar);
     box-shadow: 0 4px 14px rgb(44 44 44 / 12%);
 }
 
@@ -135,7 +135,7 @@ nav ul li a:focus-visible {
 
 header,
 .hero {
-    background-image: radial-gradient(circle, #fff, #c7c7c7);
+    background-image: radial-gradient(circle, #8512b357, #6e12ac);
 }
 
 .header-bottom-side {
@@ -169,7 +169,7 @@ header,
     border: none;
     border-radius: 9999px;
     background-color: var(--cor-roxa);
-    color: #fff;
+    color: #e9e3ee;
     font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
@@ -199,7 +199,7 @@ header,
 /* CONTEÚDO */
 
 main {
-    background-color: var(--cor-fundo);
+    background: linear-gradient(rgba(105, 2, 189, 0.575), rgb(235, 232, 232));
 }
 
 .gray-background {
